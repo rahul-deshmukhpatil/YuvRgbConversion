@@ -1,0 +1,17 @@
+These are ruby scripts for yuv and RGB conversion
+**************************************************
+
+you MUST have ruby installed on your system
+
+To run any script, execute like following
+
+
+$ruby ./yuv2rgb.rb 100 200 100 
+#here 100 200 100 are the YUV values of the pixeli, repectively, to be converted into RGB range 
+
+
+$ruby ./rgb2yuv.rb 100 200 100 
+#here 100 200 100 are the RGB values of the pixeli, repectively, to be converted into YUV range 
+
+The coeficients used for conversion are standard one, and taken from fourcc site.
+
